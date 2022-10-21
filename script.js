@@ -1,14 +1,14 @@
 let input = document.querySelector("body");
 
-let boom = new Audio("/sounds/boom.wav");
-let clap = new Audio("/sounds/clap.wav");
-let hihat = new Audio("/sounds/hihat.wav");
-let kick = new Audio("/sounds/kick.wav");
-let openhat = new Audio("/sounds/openhat.wav");
-let ride = new Audio("/sounds/ride.wav");
-let snare = new Audio("/sounds/snare.wav");
-let tink = new Audio("/sounds/tink.wav");
-let tom = new Audio("/sounds/tom.wav");
+let boom = new Audio("sounds/boom.wav");
+let clap = new Audio("sounds/clap.wav");
+let hihat = new Audio("sounds/hihat.wav");
+let kick = new Audio("sounds/kick.wav");
+let openhat = new Audio("sounds/openhat.wav");
+let ride = new Audio("sounds/ride.wav");
+let snare = new Audio("sounds/snare.wav");
+let tink = new Audio("sounds/tink.wav");
+let tom = new Audio("sounds/tom.wav");
 
 input.addEventListener("keypress", (e) => {
   if (e.key === "q" || e.key === "Q") {
